@@ -26,6 +26,8 @@ public class MinimumNumberOfCoins {
                 currCoin--;
             }
         }
-        return count;
+        if(amount==0) return count;
+        return -1;
+        
     }
 }
