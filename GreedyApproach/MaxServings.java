@@ -32,7 +32,7 @@ public class MaxServings {
             System.out.println(key);
 
             
-            
+            sc.close();
         }
     }
     public static int findMax(int[] dishes,int type){
